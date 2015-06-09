@@ -1,0 +1,65 @@
+#data{
+   border-collapse:collapse;
+   border:1px solid #ccc;
+   width: 800px;
+   
+}
+#data .title{
+   text-align: center;
+   font-weight: bold;
+   
+}
+
+#data td, th{
+   border:1px solid #ccc;
+   padding: 3px;
+}
+
+#data .txtCenter{
+   text-align: center;
+}
+
+.add{
+   padding: 3px;
+   margin: 3px 0px;
+   font-weight: bold;
+}
+/*==============#appForm===================*/
+
+#appForm{   
+   width: 700px;
+   border: solid 1px #ccc;
+}
+
+#appForm ul{
+   list-style: none inside;
+   padding: 5px;
+   margin: 0px;
+}
+
+#appForm li{
+   padding: 5px;
+   border-bottom: dashed 1px #ccc;
+}
+
+#appForm li span{
+   font-weight: bold;
+   width: 150px;
+   display: inline-block;
+   
+}
+
+#appForm .txtInput{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:  13px;
+   border: 1px solid #ccc;
+   padding: 3px;
+}
+
+.txtSort{
+   width: 200px;
+}
+
+.txtMedium{
+   width: 300px;
+}

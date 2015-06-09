@@ -9,6 +9,7 @@ define('APPLICATION_PATH', realpath(dirname(__DIR__)));
 //Hằng số lưu đường dẫn thư mục chứa thư viên ZF2
 define('LIBRARY_PATH', realpath(APPLICATION_PATH . '/library/'));
 
-// Định nghĩa đường dẫn chứa template
+// Định nghĩa đường dẫn 
 define('PUBLIC_PATH', realpath(APPLICATION_PATH . '/public'));
 define('TEMPLATE_PATH', realpath(PUBLIC_PATH . '/templates'));
+define('FILES_PATH'   , realpath(PUBLIC_PATH . '/files'));
