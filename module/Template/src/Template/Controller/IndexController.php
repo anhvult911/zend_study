@@ -22,28 +22,28 @@ class IndexController extends AbstractActionController {
 
         //'layout/about'  => __DIR__ . '/../view/layout/about.phtml',
         //Gọi đến tập tin LAYOUT index.phtml trong thư mục layout của MODULE
-        $this->layout('layout/about');
+        $this->layout('layout/home');
     }
 
     public function contactAction() {
 
         //'layout/contact'   => __DIR__ . '/../view/layout/contact.phtml',
         //Gọi đến tập tin LAYOUT index.phtml trong thư mục layout của MODULE
-        $this->layout('layout/contact');
+        $this->layout('layout/home');
     }
 
     public function hairstyleAction() {
 
         //'layout/hairstyle'    => __DIR__ . '/../view/layout/hairstyle.phtml',
         //Gọi đến tập tin LAYOUT index.phtml trong thư mục layout của MODULE
-        $this->layout('layout/hairstyle');
+        $this->layout('layout/home');
     }
 
     public function newsAction() {
 
         //'layout/news' => __DIR__ . '/../view/layout/news.phtml',
         //Gọi đến tập tin LAYOUT index.phtml trong thư mục layout của MODULE
-        $this->layout('layout/news');
+        $this->layout('layout/home');
     }
 
 }

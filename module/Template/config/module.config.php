@@ -38,11 +38,7 @@ return array(
     ), //router
     'view_manager' => array(
         'template_map' => array(
-            'layout/home' => __DIR__ . '/../view/layout/index.phtml',
-            'layout/about' => __DIR__ . '/../view/layout/about.phtml',
-            'layout/news' => __DIR__ . '/../view/layout/news.phtml',
-            'layout/hairstyle' => __DIR__ . '/../view/layout/hairstyle.phtml',
-            'layout/contact' => __DIR__ . '/../view/layout/contact.phtml',
+            'layout/home' => TEMPLATE_PATH . '/hairstyle/index.phtml'
         ),
         'template_path_stack' => array(
             'template' => __DIR__ . '/../view',
