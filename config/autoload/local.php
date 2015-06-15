@@ -2,6 +2,6 @@
 return array(
    'db' => array(
       'username' => 'root',
-      'password' => 'mysql',
+      'password' => '',
    ),
 );

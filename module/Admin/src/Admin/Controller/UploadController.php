@@ -35,9 +35,28 @@ class UploadController extends AbstractActionController {
         $view = new ViewModel(array('form' => $form));
 
         $request = $this->getRequest();
-        if ($request->isPost()) {            
+        if ($request->isPost()) {
             echo 'Tap tin vua upload len server la: ';
             echo $form->upload($request->getFiles()->toArray(), FILES_PATH);
+        }
+
+        return $view;
+    }
+
+    public function multiAction() {
+
+        $form = new \Admin\Form\MultiUploadForm();
+        $view = new ViewModel(array('form' => $form));
+//        print_r($form);die;
+        $request = $this->getRequest();
+        if ($request->isPost()) {
+
+            echo 'Tap tin vua upload len server la: ';
+            $files = $form->upload($request->getFiles()->toArray(), FILES_PATH);
+
+            echo "<pre>";
+            print_r($files);
+            echo "</pre>";
         }
 
         return $view;
